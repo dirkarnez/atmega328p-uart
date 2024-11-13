@@ -1,5 +1,5 @@
-atmega328p-adc
-==============
+atmega328p-uart
+===============
 ### GCC
 - [Optimize Options (Using the GNU Compiler Collection (GCC))](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html)
 
@@ -7,6 +7,8 @@ atmega328p-adc
 - GoogleTest does not support C project, therefore
     - Force CMake to compile C source (`main.c`) with as C++ source:
         - `set_source_files_properties("main.c" PROPERTIES LANGUAGE CXX)`
+- Compare with ARM UART implementation
+    - https://developer.arm.com/documentation/ddi0183/g/programmers-model/summary-of-registers?lang=en
 ### Reference
 - [AlexWills37/ATmega-Music-Automation: September 2021 - Firmware for the ATmega 328p that allows you to play progammable music with a piezo buzzer](https://github.com/AlexWills37/ATmega-Music-Automation)
 - [elmohrimedabdessalam/ADC-AVR: C library for Analog to Digital Converter module of ATmega328 MCU](https://github.com/elmohrimedabdessalam/ADC-AVR)
