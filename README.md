@@ -3,6 +3,8 @@ atmega328p-uart
 ### GCC
 - [Optimize Options (Using the GNU Compiler Collection (GCC))](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html)
 
+### UART
+- https://github.com/AndersKaloer/ATmega-UART
 ### Notes
 - GoogleTest does not support C project, therefore
     - Force CMake to compile C source (`main.c`) with as C++ source:
